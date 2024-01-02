@@ -11,13 +11,13 @@ export const navItems: INavData[] = [
     // }
   },
   {
-    name: 'Health Practitioner',
-    url: '/community',
+    name: 'Crypto Consultants',
+    url: '/crypto-consultants',
     iconComponent: { name: 'cil-bookmark' },
   },
   {
-    name: 'Healing Topics',
-    url: '/pages',
+    name: 'Crypto Pages',
+    url: '/crypto-pages',
     iconComponent: { name: 'cil-layers' },
   },
   // {

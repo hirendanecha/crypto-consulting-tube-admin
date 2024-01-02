@@ -121,7 +121,7 @@ export class CommunityComponent {
   }
 
   openCommunity(id: any): void {
-    this.router.navigate([`pages/edit/${id}`]);
+    this.router.navigate([`crypto-pages/edit/${id}`]);
   }
 
   createCommunityAdmin(userId, communityId): void {

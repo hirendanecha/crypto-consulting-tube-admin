@@ -101,9 +101,9 @@ export class CommunityComponent implements OnInit, AfterViewInit {
     const modalRef = this.modalService.open(DeleteDialogComponent, {
       centered: true,
     });
-    modalRef.componentInstance.title = 'Community';
+    modalRef.componentInstance.title = 'Crypto Consultants';
     modalRef.componentInstance.message =
-      'Are you sure want to delete this community?';
+      'Are you sure want to delete this crypto-consultants?';
     modalRef.result.then((res) => {
       if (res === 'success') {
         this.communityService.deleteCommunity(Id).subscribe({
@@ -121,7 +121,7 @@ export class CommunityComponent implements OnInit, AfterViewInit {
   }
 
   openCommunity(id: any): void {
-    this.router.navigate([`community/edit/${id}`]);
+    this.router.navigate([`crypto-consultants/edit/${id}`]);
   }
 
   createCommunityAdmin(userId, communityId): void {

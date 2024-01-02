@@ -58,7 +58,7 @@ export class EditCommunityComponent implements OnInit, AfterViewInit {
     public toastService: ToastService
   ) {
     this.communityId = this.route.snapshot.paramMap.get('id');
-    this.isPage = this.router.routerState.snapshot.url.includes('pages');
+    this.isPage = this.router.routerState.snapshot.url.includes('crypto-pages');
   }
 
   ngOnInit(): void {
@@ -150,9 +150,9 @@ export class EditCommunityComponent implements OnInit, AfterViewInit {
     this.communityService.createCommunityAdminByMA(data).subscribe({
       next: (res: any) => {
         if (this.isPage) {
-          this.router.navigate(['/pages']);
+          this.router.navigate(['/crypto-pages']);
         } else {
-          this.router.navigate(['/community']);
+          this.router.navigate(['/crypto-consultants']);
         }
       },
       error: (error) => {

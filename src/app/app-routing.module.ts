@@ -34,7 +34,7 @@ const routes: Routes = [
       //     import('./views/community-post/community-post.module').then((m) => m.CommunityPostModule),
       // },
       {
-        path: 'community',
+        path: 'crypto-consultants',
         loadChildren: () =>
           import('./views/community/community.module').then(
             (m) => m.CommunityModule
@@ -51,7 +51,7 @@ const routes: Routes = [
           import('./views/marketing-page/marketing.module').then((m) => m.MarketingModule),
       },
       {
-        path: 'pages',
+        path: 'crypto-pages',
         loadChildren: () =>
           import('./views/freedom-page/freedom-page.module').then((m) => m.FreedomPageModule),
       },
