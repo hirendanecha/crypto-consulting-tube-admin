@@ -43,7 +43,7 @@ export class EditChannelComponent implements OnInit, AfterViewInit {
     public toastService: ToastService
   ) {
     this.channelId = this.route.snapshot.paramMap.get('id');
-    this.isPage = this.router.routerState.snapshot.url.includes('pages');
+    this.isPage = this.router.routerState.snapshot.url.includes('crypto-pages');
   }
 
   ngOnInit(): void {
