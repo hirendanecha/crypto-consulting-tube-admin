@@ -8,13 +8,11 @@ export class User {
   FirstName: string;
   Id: string;
   IsActive: string;
+  Username: string;
   IsAdmin: string;
   LastName: string;
   State: string;
-  userName: string;
   Zip: string;
   profileId: string;
   IsSuspended: string;
 }
-
-
