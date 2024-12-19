@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
-import { UserService } from 'src/app/services/user.service';
-import { User } from 'src/app/containers/user';
+import { UserService } from '../../../services/user.service';
+import { User } from '../../../containers/user';
 @Component({
   selector: 'app-edit-user-dialog',
   templateUrl: './edit-user-dialog.component.html',

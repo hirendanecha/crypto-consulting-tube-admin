@@ -20,6 +20,16 @@ export const navItems: INavData[] = [
     url: '/crypto-pages',
     iconComponent: { name: 'cil-layers' },
   },
+  {
+    name: 'News Feed',
+    url: '/newsfeed',
+    iconComponent: { name: 'cil-notes' },
+  },
+  {
+    name: 'Research',
+    url: '/research',
+    iconComponent: { name: 'cil-control' },
+  },
   // {
   //   name: 'Post List',
   //   url: '/post-list',
@@ -49,5 +59,10 @@ export const navItems: INavData[] = [
     name: 'Support ticket page',
     url: '/report-bugs',
     iconComponent: { name: 'cil-list' },
+  },
+  {
+    name: 'Advertisement page',
+    url: '/advertisements',
+    iconComponent: { name: 'cil-playlist-add' },
   },
 ];

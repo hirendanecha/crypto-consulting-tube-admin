@@ -2,6 +2,16 @@
 //   width: 2.5rem;
 //   height: 2.5rem;
 // }
+.text-format{
+  overflow-wrap: anywhere;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  cursor: pointer;
+}
+
 .edit-content {
   height: 100%;
   min-height: 1050px;
@@ -52,13 +62,13 @@
   }
 }
 
-.single-box{
+.single-box {
   max-width: 300px;
   background: #3c4b64;
   margin: 10px;
   color: #fff;
 
-  .material-symbols-outlined{
+  .material-symbols-outlined {
     color: #fff;
     cursor: pointer;
   }
